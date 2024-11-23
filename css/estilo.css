@@ -55,3 +55,20 @@ body{
     background-color: #00c3ff;
     color: white;
 }
+.form button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+.form-content.erro input{
+border-color: red;
+}
+.form-content.erro a{
+    color: red;
+}
