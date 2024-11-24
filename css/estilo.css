@@ -66,9 +66,9 @@ body{
     cursor: pointer;
     margin-top: 14px;
 }
-.form-content.erro input{
+.form-content.error input{
 border-color: red;
 }
-.form-content.erro a{
+.form-content.error a{
     color: red;
 }

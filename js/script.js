@@ -9,5 +9,21 @@ const passwordconfirmation  = document.getElementById("password-confirmation");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    alert("CADASTRADO COM SUCESSO!!")
+    chekInputUsername();
 })
+
+    function chekInputUsername(){
+        const usernameValue = username.value;
+        console.log(usernameValue);
+
+        if(username==="" ){
+            errorInput(username,"preencha um usernane!")
+
+        }
+        }
+        function errorInput(input, messsage){
+         const formitem = input.parentElment;
+         const textmessage = formitem.queryselector("a")
+         textmessage.innerText = messsage;
+         formitem.className = "form-content error"
+        }
